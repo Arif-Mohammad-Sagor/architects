@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,900;1,600&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+header{
+    background-color: #FFF4E7;
+    padding-top: 50px;
+}
+nav, .banner, .company-moto{
+    max-width:992px;
+    display:flex;
+    justify-content: space-between;
+    margin:0 auto;
+    align-items: center;
+}
+.brand-name{
+    color:#131313;
+    font-size:35px;
+    font-weight: 700p;
+}
+.menu-container{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap:50px;
+}
+.menu-container li a{
+    text-decoration: none;
+    color:#424242;
+}
+/* company moto design part */
+.company-moto{
+    display:flex;
+    justify-content: center;
+    margin-top:100px;
+
+}
+.moto-container{
+    width:50%;
+    text-align: center;
+}
+.moto-title{
+    font-size: 40px;
+    color:#131313;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.company-desc{
+    color:#727272;
+    font-size: 15.5px;
+    margin-bottom: 30px;
+}
+.btn-primary{
+    padding:10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #FF900E;
+    color:white;
+    border:none;
+    font-weight:500;
+    margin-bottom: 60px;
+
+}
+/* banner section design */
+.banner-img-container{
+    padding-bottom: 60px;
+}
+.banner-img-container img{
+    width:100%;
+    height: 100%;
+}
