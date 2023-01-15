@@ -9,12 +9,17 @@ header{
     background-color: #FFF4E7;
     padding-top: 50px;
 }
-nav, .banner, .company-moto{
+nav, .banner,.company-moto, .footer{
     max-width:992px;
     display:flex;
     justify-content: space-between;
     margin:0 auto;
     align-items: center;
+}
+.main{
+    max-width:992px;
+    margin: 0 auto;
+
 }
 .brand-name{
     color:#131313;
@@ -39,8 +44,8 @@ nav, .banner, .company-moto{
 
 }
 .moto-container{
-    width:50%;
-    text-align: center;
+    width:60%;
+    text-align:center;
 }
 .moto-title{
     font-size: 40px;
@@ -50,8 +55,9 @@ nav, .banner, .company-moto{
 }
 .company-desc{
     color:#727272;
-    font-size: 15.5px;
+    font-size: 15px;
     margin-bottom: 30px;
+
 }
 .btn-primary{
     padding:10px 20px;
@@ -71,4 +77,199 @@ nav, .banner, .company-moto{
 .banner-img-container img{
     width:100%;
     height: 100%;
+}
+
+/* quicklist-section design  */
+.quicklist-section{
+    display: flex;
+    padding: 0px 50px;
+    padding-bottom: 50px;
+    gap:50px;
+    align-items: flex-end;
+}
+.quicklist-grid{
+  margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:10px;
+}
+.quicklist-item{
+    border-radius:5px;
+}
+.quicklist-item img{
+    width: 100%;
+
+}
+.quicklist-details .quicklist-title{
+    font-size: 35px;
+    font-weight: 500;
+    color: #727272;
+    margin-bottom: 13px;
+}
+.quicklist-title strong{
+    color: black;
+}
+.quicklist-details .quicklist-title span{
+    color:#FF900E;
+}
+.quicklist-para{
+    color: #727272;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+/* featured section design  */
+
+.featured-section{
+    padding-top:50px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:70px;
+}
+
+.featured-points-title{
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 35px;
+    padding-left: 10px;
+    border-left: 3px solid #FF900E;
+}
+.featured-points-desc{
+    color:#727272;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.point{
+    padding:20px 15px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.10);
+    border-radius: 5px;
+}
+.point-title{
+    font-size: 18px;
+    font-weight: 500;
+    color:#131313;
+    margin-bottom: 5px;
+}
+.point-desc{
+    font-size: 14px;
+    color:#727272;
+}
+.featured-img-wrapper img{
+    width: 100%;
+    height: 100%;
+}
+.featured-img-wrapper{
+    position: relative;
+}
+.experience-token{
+    background-color: #FF900E;
+    color:white;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 5px;
+    width:180px;
+    height: 100px;
+    position: absolute;
+    bottom:-30px;
+    left:-40px;
+}
+.experience-token p{
+    font-size: 30px;
+    font-weight: 600;
+}
+.experience{
+    font-size:15px;
+}
+/* fact section design  */
+.facts-section{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+.facts-detail-container{
+    width:35%;
+    height: 200px;
+
+}
+.facts-title{
+    font-size: 32px;
+    margin-bottom:15px;
+}
+.facts-desc{
+    font-size: 15px;
+    color:#727272;
+}
+.fact-items-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fact-item{
+    width:20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding:25px;
+    border:2px solid #FF900E;
+    border-radius: 5px;
+}
+.fact-item:hover{
+ transform: scale(1.2);
+ border: 2px solid greenyellow;
+}
+/* .fact-item img{
+    margin-top: 40px;
+    margin-bottom: 5px;
+} */
+.fact-item img span{
+    font-size:20px;
+}
+.fact-item p{
+    font-size: 15px;
+    color:#727272;
+    font-weight: 500;
+}
+/* sponcer section design */
+
+.sponscer-details{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.sponscer-title{
+    color:#131313;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.sponscer-desc{
+    color: #727272;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.sponscer-items-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap:15px;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 50px;
+}
+.sponser-name img{
+    width: 100px;
+}
+/* footer section design */
+.footer{
+    background-color: #FFF4E7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 0px;
+    color:#424242;
+    margin-bottom: 50px;
+}
+.footer-desc{
+    font-size: 15.5px;
+    font-weight: 500;
 }
